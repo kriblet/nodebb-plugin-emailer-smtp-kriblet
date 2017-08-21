@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-emailer-smtp-kriblet",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Plugin for NodeBB allowing you to send e-mail via SMTP with TLS compliance.",
   "main": "index.js",
   "scripts": {

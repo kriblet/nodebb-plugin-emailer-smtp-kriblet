@@ -1,6 +1,6 @@
 'use strict';
 var winston = module.parent.require('winston'),
-    Meta = module.parent.require('./meta'),
+    Meta = require.main.require('./src/meta'),
     nodemailer = require('nodemailer'),
     smtpTransport = require('nodemailer-smtp-transport'),
     Emailer = {};
