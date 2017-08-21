@@ -1,0 +1,36 @@
+{
+  "name": "nodebb-plugin-emailer-smtp-complete",
+  "version": "1.0.1",
+  "description": "Plugin for NodeBB allowing you to send e-mail via SMTP with TLS compliance.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kriblet/nodebb-plugin-emailer-smtp-kriblet.git"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "emailer",
+    "mail",
+    "smtp"
+  ],
+  "authors": [
+    "Ben <enriquebenavidesm@gmail.com>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kriblet/nodebb-plugin-emailer-smtp-kriblet/issues"
+  },
+  "homepage": "https://github.com/kriblet/nodebb-plugin-emailer-smtp-kriblet",
+  "dependencies": {
+    "nodemailer": "~2.7.0",
+    "path": "~0.12.7",
+    "winston": "^2.3.1"
+  },
+  "nbbpm": {
+    "compatibility": "^1.1.2"
+  }
+}
