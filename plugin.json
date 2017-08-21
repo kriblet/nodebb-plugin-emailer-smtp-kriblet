@@ -1,6 +1,6 @@
 {
     "id": "nodebb-plugin-emailer-smtp-kriblet",
-    "url": "https://github.com/DoubleDash/nodebb-plugin-emailer-smtp-complete",
+    "url": "https://github.com/DoubleDash/nodebb-plugin-emailer-smtp-kriblet",
     "name": "Kriblet Emailer SMTP",
     "description": "Plugin for NodeBB allowing you to send e-mail via SMTP with TLS support with love by Kriblet.",
     "library": "./index.js",
